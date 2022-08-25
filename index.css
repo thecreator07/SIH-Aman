@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    font-size: 90%;
+}
+div li{
+    animation: slide 10s linear infinite;
+}
+@keyframes slide {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-400px);
+    } 
+}
+
